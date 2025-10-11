@@ -7,6 +7,6 @@ Make Oled Screen to see IP Address an Antenna selection for the radios.
 With this layout for example:
 
 >IP: 192.168.1.100  
->Radio1 Ant 3  
+>Radio1 Ant 3<br>
 >Radio2 Ant 5  
 
