@@ -7,8 +7,8 @@
 SSD1306 display(0x3c, 4, 15);
 
 // WiFi
-const char* ssid = "7KE";
-const char* password = "322Koala#";
+const char* ssid = "YourWiFiSSID";
+const char* password = "YourWiFiSSIDPassword";
 
 // Pines de antenas
 const int radio1Pins[6] = {2, 5, 12, 13, 14, 27};
