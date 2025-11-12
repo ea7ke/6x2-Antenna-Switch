@@ -1,16 +1,23 @@
 # 6x2-Antenna-Switch
-Remote Web Control for 6x2 Antenna Switch
-is a simple remote web control for an 6x2 antenna switch.  
-We've two web pages, one for Antenna Switch radio input where we can select one antenna output if isn't selected by the other Radio.  
+Este proyecto trata de crear un control remoto para un cnmutador de 6 antenas para dos radios. Comunmente conocido como un 6x2
+Después de probar con microcontroladores tipo Arduino, ESP32 y similares, he visto que usar una Raspberry Pi me da una solución más robusta, pudiendo usarla para más funciones además del control del conmutador de 6x2.
 
-# I use HELTEC Wifi Kit 32
-https://docs.heltec.org/en/node/esp32/wifi_kit_32/index.html
+Para ello es necesario la parte de hardware de conmutación que sirve como ejemplo las opciones de RemoteQTH
 
-# TO DO
-Make Oled Screen to see IP Address an Antenna selection for the radios.
-With this layout for example:
+https://remoteqth.com/six-to-two-antenna-switch.php
 
->IP: 192.168.1.100  
->Radio1 Ant 3<br>
->Radio2 Ant 5  
+https://remoteqth.com/hf-switching-and-matching.php
+
+Por otra parte una raspberry Pi con Raspbian Lite (yo he usado la versión de 32 bits pero imagino que funcionará con cualquier GNU/linux en una Raspberry Pi).
+
+Para el control he usado dos módulos de relés de 12vdc con entrada de optoacopladores como estos, fácilmente localizables.
+
+https://es.aliexpress.com/item/1005004496013493.html
+
+
+# Instalación del software
+
+Lo primero es instalar Raspbian lite en la Raspberry Pi. 
+El instalador oficial te da opciones que habría que habilitar para facilitar la configuración.
+
 
