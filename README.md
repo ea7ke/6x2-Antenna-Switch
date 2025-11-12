@@ -20,4 +20,8 @@ https://es.aliexpress.com/item/1005004496013493.html
 Lo primero es instalar Raspbian lite en la Raspberry Pi. 
 El instalador oficial te da opciones que habría que habilitar para facilitar la configuración.
 
+https://www.raspberrypi.com/software/
+
+
+
 
